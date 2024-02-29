@@ -23,7 +23,6 @@ public class GenArrayList<E extends Comparable<? super E>> {
     public void editData(String kode, E values) {
         data.add(values);
     }
- 
     public void removeData(String kode) {
         if (kode.charAt(0) == 'A' || kode.charAt(0) == 'B'){
             data.removeIf(value -> ((ATK) value).getKode().equals(kode));
