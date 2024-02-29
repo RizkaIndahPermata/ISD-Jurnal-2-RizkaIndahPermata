@@ -47,7 +47,6 @@ public class Bag implements Comparable<Bag> {
     public String toString() { 
         return "[kode = " + kode + ", jenis = " + jenis + ", nama = " + nama + ", stok = " + stok + "]";
     } 
- 
     @Override 
     public int compareTo(Bag o) { 
         return this.kode.compareTo(o.getKode()); 
