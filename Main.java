@@ -21,7 +21,6 @@ public class Main {
         items.removeData("A001");
         items1.removeData("C002");
         items.display();
-
         System.out.println("Isi data Bag: ");
         items1.display();
     } 
