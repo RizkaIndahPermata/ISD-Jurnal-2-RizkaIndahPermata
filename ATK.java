@@ -47,7 +47,6 @@ public class ATK implements Comparable<ATK> {
     public String toString() { 
         return "[kode = " + kode + ", jenis = " + jenis + ", nama = " + nama + ", stok = " + stok + "]";
     } 
- 
     @Override 
     public int compareTo(ATK o) { 
         return this.kode.compareTo(o.getKode()); 
